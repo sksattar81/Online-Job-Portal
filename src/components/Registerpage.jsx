@@ -2,7 +2,9 @@ import React from "react";
 
 function Registerpage() {
     return (
-        <>
+        <><div>
+        <h1>FindJob</h1>
+    </div>
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-3 col-md-3 col-sm-12'> </div>

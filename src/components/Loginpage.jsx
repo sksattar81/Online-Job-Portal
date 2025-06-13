@@ -3,6 +3,9 @@ import React from 'react'
 const Loginpage = () => {
   return (
     <div>
+    <div>
+        <h1>FindJob</h1>
+    </div>
       <div className='container'>
                 <div className='row'>
                     <div className='col-lg-3 col-md-3 col-sm-12'> </div>
@@ -13,7 +16,7 @@ const Loginpage = () => {
                                 <div className='row'>
                                     <div className='col-lg-12 col-md-12 col-sm-12'>
                                         <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">username or email  <sup><span style={{ color: 'red' }}>*</span></sup></label>
+                                            <label for="exampleInputEmail1" class="form-label">Username or email  <sup><span style={{ color: 'red' }}>*</span></sup></label>
                                             <input
                                                 type="email"
                                                 name="name"
@@ -43,7 +46,7 @@ const Loginpage = () => {
                                 <div className='row'>
                                     <div className='col-12'>
                                         <div style={{ display: 'block', float: 'right' }}>
-                                            <button type="button" class="btn btn-success">Register an account </button>
+                                            <button type="button" class="btn btn-success">Log In Your account </button>
                                         </div>
                                     </div>
                                 </div>
