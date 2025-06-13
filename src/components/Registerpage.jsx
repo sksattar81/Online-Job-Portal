@@ -2,9 +2,9 @@ import React from "react";
 
 function Registerpage() {
     return (
-        <><div>
-        <h1>FindJob</h1>
-    </div>
+        <><div className="header">
+            <h1>FindJob</h1>
+        </div>
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-3 col-md-3 col-sm-12'> </div>
@@ -36,7 +36,7 @@ function Registerpage() {
                                                 class="form-control"
                                                 id="exampleInputEmail1"
                                                 aria-describedby="emailHelp"
-                                                placeholder='Enter Last Your Name'
+                                                placeholder='Enter Your Last  Name'
                                             />
                                         </div>
                                     </div>
@@ -53,7 +53,7 @@ function Registerpage() {
                                                 id="exampleInputEmail1"
 
                                                 placeholder='Enter Your Email'
-                                            /> 
+                                            />
                                         </div>
                                     </div>
                                     <div className='col-lg-12 col-md-12 col-sm-12'>
@@ -70,14 +70,14 @@ function Registerpage() {
                                         </div>
                                     </div><div className='col-lg-12 col-md-12 col-sm-12'>
                                         <div class="mb-3">
-                                            <label for="exampleInputPassword" class="form-label">Password  <sup><span style={{ color: 'red' }}>*</span></sup></label>
+                                            <label for="exampleInputPassword" class="form-label">Re-enter Password  <sup><span style={{ color: 'red' }}>*</span></sup></label>
                                             <input
                                                 type="password"
                                                 name="password"
                                                 class="form-control"
                                                 id="exampleInputPassword"
                                                 aria-describedby="Help"
-                                                placeholder="Enter  re-type Password "
+                                                placeholder="re-Enter your Strong  Password "
                                             />
                                         </div>
                                     </div>

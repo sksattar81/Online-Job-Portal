@@ -6,11 +6,11 @@ import Loginpage from './components/Loginpage';
 
 
 function App() {
-   return (
+  return (
     <>
-    
-      {/* <Registerpage/> */}
-      <Loginpage/>
+
+      {/* <Registerpage /> */}
+      <Loginpage />
     </>
   )
 }

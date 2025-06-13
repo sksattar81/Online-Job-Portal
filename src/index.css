@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     background-color: #1491ea;
@@ -6,34 +6,42 @@ body{
     border: 5px black;
 }
 
-.form{
+.form {
     height: auto;
     padding: 10px;
-    background-color: rgb(235,235,235);
+    background-color: rgb(235, 235, 235);
     margin-top: 5%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-top: 2px solid;
 }
-.form input[type="text"], input[type="email"]{
+
+.form input[type="text"],
+input[type="email"] {
     height: 47px;
 }
-.form input[type="file"]{
+
+.form input[type="file"] {
     height: 47px;
 }
 
 
-h6{
+h6 {
     text-align: center;
     font-size: large;
-    
+
 }
 
-.Footers{
-    text-align: center ;
+.Footers {
+    text-align: center;
 }
 
-button{
+button {
     width: 35vw;
     background-color: green;
+}
+
+.header{
+    margin: 20px;
+    
 }
