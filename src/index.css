@@ -32,3 +32,8 @@ h6{
 .Footers{
     text-align: center ;
 }
+
+button{
+    width: 35vw;
+    background-color: green;
+}
