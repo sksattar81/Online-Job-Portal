@@ -21,7 +21,7 @@ function Registerpage ()
                                             class="form-control" 
                                             id="exampleInputEmail1" 
                                             aria-describedby="emailHelp" 
-                                            placeholder='Enter Your Name'
+                                            placeholder='Enter Your First Name'
                                         />
                                     </div>
                                 </div>
@@ -35,7 +35,7 @@ function Registerpage ()
                                             class="form-control" 
                                             id="exampleInputEmail1" 
                                             aria-describedby="emailHelp" 
-                                            placeholder='Enter Your Name'
+                                            placeholder='Enter Last Your Name'
                                         />
                                     </div>
                                 </div>
@@ -43,13 +43,13 @@ function Registerpage ()
 
                                 <div className='col-lg-12 col-md-12 col-sm-12'>
                                     <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Mobile <sup><span style={{color:'red'}}>*</span></sup></label>
+                                        <label for="exampleInputEmail1" class="form-label">Mobile</label>
                                         <input 
                                             type="text" 
                                             name="mobile"
                                             class="form-control" 
-                                            id="exampleInputEmail1" 
-                                            aria-describedby="emailHelp" 
+                                            id="exampleInputMobile" 
+                                           
                                             placeholder='Enter Your Mobile'
                                         />
                                     </div>
@@ -62,20 +62,21 @@ function Registerpage ()
                                             name="email"
                                             class="form-control" 
                                             id="exampleInputEmail1" 
-                                            aria-describedby="emailHelp" 
+                                            
                                             placeholder='Enter Your Email'
                                         />
                                     </div>
                                 </div>
                                 <div className='col-lg-12 col-md-12 col-sm-12'>
                                     <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Password  <sup><span style={{color:'red'}}>*</span></sup></label>
+                                        <label for="exampleInputPassword" class="form-label">Password  <sup><span style={{color:'red'}}>*</span></sup></label>
                                         <input 
                                             type="password" 
                                             name="password"
                                             class="form-control" 
-                                            id="exampleInputEmail1" 
-                                            aria-describedby="emailHelp" 
+                                            id="exampleInputPassword" 
+                                            aria-describedby="Help" 
+                                            placeholder="Enter a strong Password "
                                         />
                                     </div>
                                 </div>
@@ -83,7 +84,7 @@ function Registerpage ()
                             <div className='row'>
                                 <div className='col-12'>
                                     <div style={{display:'block', float:'right'}}>
-                                        <button className='button1 btn btn-primary'>Join for FindJob</button>
+                                        <button type="button" class="btn btn-success">Join for FindJob</button>
                                     </div>
                                 </div>
                             </div>
